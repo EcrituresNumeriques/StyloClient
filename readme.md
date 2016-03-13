@@ -9,3 +9,5 @@ The /bin folder will contain all the versions of the binaries you'll need. The n
 - ZZ is the revision, or bug correction
 - YY is the subversion, adding new features
 - XX is the version, breaking compatibility with previous ones.
+
+Select the version you want to install (usually the latest is the best choice), and then the platform (linux/mac/windows). This will contain everything you need to get started.
