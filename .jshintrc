@@ -1,0 +1,15 @@
+{
+  "esnext": true,
+  "node": true,
+  "devel": true,
+  "latedef": true,
+  "undef": true,
+  "unused": true,
+  "sub": true,
+  "predef": [
+    "localStorage",
+    "window",
+    "document",
+    "i18n"
+  ]
+}

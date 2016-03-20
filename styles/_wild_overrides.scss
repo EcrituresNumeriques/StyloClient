@@ -1,0 +1,79 @@
+/* TODO: The following styles need to be moved into component modules */
+
+/* CSL Styles
+-----------------------------------------------------*/
+
+.csl-entry {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 25px;
+  padding: 5px 20px;
+}
+
+.csl-block {
+  padding:0.4em 0px 0.4em 0em;
+}
+
+.csl-left-margin {
+  float: left;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.csl-right-inline {
+  margin-left: 40px;
+}
+
+/* Content Tools
+-----------------------------------------------------*/
+
+
+/* Custom Annotation styles
+-----------------------------------------------------*/
+
+
+/* Bibliography in manuscript area
+-----------------------------------------------------*/
+
+.bibliography-component {
+  cursor: not-allowed;
+}
+
+.bibliography-component .bib-item {
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+/* Document Cover
+-----------------------------------------------------*/
+
+.document-cover {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+
+  border-bottom: 1px solid #ddd;
+
+  .title {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: $heading-letterspacing;
+    line-height: 40px;
+  }
+
+  .abstract {
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .authors {
+    font-size: 20px;
+    padding: 30px 0px;
+
+    .author {
+      display: block;
+      float: left;
+      margin-right: 20px;
+    }
+  }
+}
