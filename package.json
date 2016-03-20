@@ -1,7 +1,7 @@
 {
   "name": "stylo",
   "description": "Open science content creation and display",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "dependencies": {
     "body-parser": "1.14.1",
     "browserify": "substance/node-browserify#d3caeb6dcdaa97a258d099c7231a57f0f60ec876",
