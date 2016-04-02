@@ -21,7 +21,7 @@ BibItemComponent.Prototype = function() {
       el.addClass('se-highlighted');
     }
     // Label
-    el.append($$('div').addClass('se-label').append(this.props.node.label));
+    el.append($$('div').addClass('se-label').append(this.props.node.label || ''));
     // Focus toggle
     el.append(
       $$('button').addClass('se-focus-toggle').append(
@@ -30,7 +30,7 @@ BibItemComponent.Prototype = function() {
       ).on('click', this.toggleFocus)
     );
     // Text
-    el.append($$('div').addClass('se-text').append(this.props.node.text));
+    el.append($$('div').addClass('se-text').append(this.props.node.text || ''));
     return el;
   };
 };
